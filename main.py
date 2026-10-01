@@ -14,7 +14,7 @@ import os
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
-ADMIN_KEY = os.environ.get("ADMIN_KEY", "change-me")
+ADMIN_KEY = os.environ.get("ADMIN_KEY", "HAP2Md&aTT71vTK")
 SESSION_COOKIE_NAME = "admin_session"
 # Laisse à False par défaut : certains proxys (dont Render en interne) peuvent faire perdre
 # le cookie si le flag Secure est forcé alors que la requête interne n'est pas vue comme HTTPS.
